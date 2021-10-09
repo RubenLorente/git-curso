@@ -11,6 +11,9 @@ git diff <file> --> para ver los cambios que le has echo al fichero desde el ult
 git branch --> muestra versiones de los proyectos
 git branch <nombreproyecto> --> creas una version alternativa en el git
 git checkout<nombreproyecto> --> cambias de version del git
-
+git remote add origin <urlrepositorio> --> conecta el repositorio con el codigo
+git push -u origin <nombreproyecto> --> sube el codigo a github
+git rm <nombrefichero> --> elimina el fichero
+git clone <urlrepositorio> --> copia todo el codigo de github a donde estes en el git
 
 archivo .gitignore escribes dentro del archivos nombres de ficheros que quieres que el git no los coja
