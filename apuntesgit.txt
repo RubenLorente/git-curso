@@ -1,0 +1,16 @@
+comandos git consola:
+git init --> inicializas el git
+git config --global user.email "Correo" --> le pones un correo al git
+git config --global user.name "NombreUsuario" --> le pones un nombre de autor al git
+git status --> en que estado se encuentra el git
+git log --> historial de los git
+git add <file> --> añades un fichero al git
+git commit -m "mensaje" --> haces un guardado de todos los cambios que hayas echo a los ficheros
+git checkout <file> --> para deshacer los cambios que le hayas echo al fichero desde el ultimo guardado
+git diff <file> --> para ver los cambios que le has echo al fichero desde el ultimo guardado
+git branch --> muestra versiones de los proyectos
+git branch <nombreproyecto> --> creas una version alternativa en el git
+git checkout<nombreproyecto> --> cambias de version del git
+
+
+archivo .gitignore escribes dentro del archivos nombres de ficheros que quieres que el git no los coja
